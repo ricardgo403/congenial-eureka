@@ -3,11 +3,11 @@
 
 struct Node
 {
-    T dato;
-    Node* siguiente;
+    T data;
+    Node* next;
 
-    Node(const T& elemento, Node* sig = nullptr):
-        dato(elemento), siguiente(sig){}
+    Node(const T& element, Node* sig = nullptr):
+        data(element), next(sig){}
 };
 
 #endif // NODE_HPP_INCLUDED
