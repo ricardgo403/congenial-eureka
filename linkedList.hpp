@@ -21,5 +21,16 @@ class LinkedList
         ~LinkedList<T>();
         bool empty() const;
         size_t size();
+        void pushFront(const T& element);
+        void pushBack(const T& element);
+        const T& front() const;
+        const T& back() const;
+        void popFront();
+        void popBack();
+        void insert(size_t position, const T& element);
+        void erase(size_t position);
+        void clear();
+        void remove(const T& value);
+        string toString();
 };
 #endif
